@@ -35,7 +35,7 @@ export function ProfileCard({
             <span>
               <img src={HomeWork} alt="Home work" />
               {
-                company === null ? "Nenhuma" : company
+                company === null ? "Not Available" : company
               }
             </span>
 
